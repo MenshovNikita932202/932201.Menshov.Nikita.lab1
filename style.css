@@ -1,0 +1,133 @@
+p{
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+body{
+  margin: 0;
+  color: white;
+  font-family: Roboto, Arial;
+  font-size: medium;
+}
+
+.bold{
+  font-weight: bold;
+}
+
+
+.header{
+  background-color: green;
+  text-align: center;
+  padding: 10px 0;
+  font-family: "Roboto Mono", monospace;;
+}
+
+.content{
+  padding:10px 0 ;
+  text-align: left;
+
+  margin: 0 auto;
+  width: 35%;
+
+  background-color: blue;
+}
+
+.content-text{
+  padding: 0 30px;
+}
+
+.square{
+  border: solid 5px rgb(255, 255, 255);
+  height: 100px;
+  width: 100px;
+  float:left;
+  margin: 0 20px 10px 0;
+  border-radius: 15px 0 15px 0;
+
+}
+
+.link{
+  display: block;
+  align-items: center;
+  text-align: center;
+  padding: 10px 0;  
+  text-decoration: underline;
+  color: red;
+}
+/* word-spacing: 20px; */
+#here-word{
+  color: red;
+}
+
+.spacing-words{
+  word-spacing: 8px;
+  font-size: 20px;
+}
+
+.value-point-main{
+  margin-top: 0 ;
+}
+
+.value-point{
+  padding: 10px 0 ;
+}
+
+.v2-word{
+  letter-spacing: 8px;
+  color: rgb(0, 238, 255);
+}
+
+.visual-styles-main{
+  display: inline-block;
+}
+
+.visual-styles-text{
+  padding: 8px 0px;
+}
+
+#s-padding{
+  padding-top: 15px;
+}
+
+.grid{
+  border:solid 1px white ;
+  display: grid;
+  grid-template-columns:repeat(3, 1fr);
+  width: 7rem;
+  height: 8rem;
+  grid-gap:4px;
+  padding: 4px;
+}
+
+.cell{
+  border: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.cell_1{
+  background-color: green;
+  grid-row: 1 /span 2;
+}
+
+.cell_7{
+  background-color: red;
+  grid-column: 2 /span 2;
+}
+
+.floated {
+  float: right;
+}
+
+.like-img {
+  margin-top: 10px;
+  text-align: right;
+}
+
+.footer{
+  background-color: green;
+  text-align: center;
+  padding: 10px 0;
+  font-family: "Roboto Mono", monospace;
+}
